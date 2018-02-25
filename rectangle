@@ -1,6 +1,7 @@
 
 # This draws a rectangle
+# Use: http://turtleacademy.com/lessons/en
 
-rt 90 fd 100 rt 90 fd 200 rt 90 fd 100 rt 90 fd 200 
+rt 90 fd 100 rt 90 fd 150 rt 90 fd 100 rt 90 fd 150 
 
 # Ready, steady, & transform!
