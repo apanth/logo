@@ -1,0 +1,6 @@
+# This draws a robot
+# Use: http://turtleacademy.com/lessons/en
+
+repeat 4 [fd 100 rt 90]
+
+
