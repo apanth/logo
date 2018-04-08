@@ -58,4 +58,18 @@ bk 48 rt 45
 pendown
 repeat 4 [fd 10 rt 90 fd 10 lt 90]
 
+penup
+lt 90 fd 25
+pendown
+repeat 3 [fd 15 rt 360/3]
+
+penup
+fd 7 rt 90 fd 3
+pendown
+fd 1
+penup
+fd 2
+pendown 
+fd 1
+
 
