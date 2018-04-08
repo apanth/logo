@@ -1,6 +1,24 @@
 # This draws a robot
 # Use: http://turtleacademy.com/lessons/en
 
+# Clear the screen.
+cs
+
+# Draw the fzce boundary
 repeat 4 [fd 100 rt 90]
 
+# Go to right eye bottom
+penup
+fd  60 rt 90 fd 10 lt 90
+pendown
 
+# Draw right eye
+repeat 4 [fd 30 rt 90]
+
+# Go to left eye bottom
+penup
+rt 90 fd 50 lt 90
+pendown
+
+# Draw left eye
+repeat 4 [fd 30 rt 90]
