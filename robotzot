@@ -53,7 +53,9 @@ bk 11 lt 90
 pendown
 repeat 60 [fd 1 rt 360/60]
 
-
-
+penup
+bk 48 rt 45
+pendown
+repeat 4 [fd 10 rt 90 fd 10 lt 90]
 
 
