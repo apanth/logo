@@ -22,3 +22,38 @@ pendown
 
 # Draw left eye
 repeat 4 [fd 30 rt 90]
+
+---- without comments
+
+cs
+HIDETURTLE
+repeat 4 [fd 100 rt 90]
+penup
+fd  60 rt 90 fd 10 lt 90
+pendown
+repeat 4 [fd 30 rt 90]
+penup
+rt 90 fd 50 lt 90
+pendown
+repeat 4 [fd 30 rt 90]
+penup
+fd  15 rt 90 fd 4 lt 90
+pendown
+repeat 60 [fd 1 rt 360/60]
+penup
+rt 90 fd 11
+pendown
+fd 1
+penup
+bk 50
+pendown
+fd 1
+penup
+bk 11 lt 90
+pendown
+repeat 60 [fd 1 rt 360/60]
+
+
+
+
+
