@@ -27,7 +27,19 @@ repeat 4 [fd 30 rt 90]
 
 cs
 HIDETURTLE
+penup
+fd 70
+pendown
 repeat 4 [fd 100 rt 90]
+repeat 2 [rt 90 fd 100 rt 90 fd 150]
+penup
+rt 90 fd 10 rt 90 fd 10
+pendown
+repeat 2 [fd 130 lt 90 fd 80 lt 90]
+penup
+bk 10 lt 90 bk 10 lt 90
+pendown
+
 penup
 fd  60 rt 90 fd 10 lt 90
 pendown
@@ -71,5 +83,78 @@ penup
 fd 2
 pendown 
 fd 1
+
+penup
+bk 7
+lt 90
+bk 7
+bk 25
+lt 45
+fd 72
+lt 90
+fd 50
+rt 90
+pendown
+
+lt 20
+fd 100
+lt 140
+fd 100
+lt 20
+penup
+fd 100
+pendown
+lt 20
+fd 100
+lt 140
+fd 100
+lt 110
+fd 10
+lt 70
+fd 75
+rt 140
+fd 75
+rt 20
+penup
+fd 100
+pendown
+rt 20
+fd 75
+rt 140
+fd 75
+penup
+rt 110
+fd 118
+lt 90
+fd 10
+rt 80
+pendown
+fd 100
+lt 160
+fd 100
+rt 80
+fd 10
+rt 80
+fd 100
+lt 160
+fd 100
+lt 100
+fd 5
+lt 80
+fd 80
+rt 160
+fd 80
+lt 80
+fd 15
+lt 80
+fd 80
+rt 160
+fd 80
+
+
+
+
+
+
 
 
