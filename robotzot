@@ -150,6 +150,14 @@ lt 80
 fd 80
 rt 160
 fd 80
+lt 80
+fd 15
+rt 90
+fd 20
+lt 90
+repeat 4 [ fd 10 lt 90 fd 10 rt 90]
+fd 10 rt 90 fd 10
+repeat 5 [ fd 10 rt 90 fd 10 lt 90]
 
 
 
